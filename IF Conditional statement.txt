@@ -1,0 +1,273 @@
+- disable the button BEFORE your code to save it or print it.
+
+mySaveButton.Enabled = False
+But, keep in mind that your code will not be able to stop a user from hitting the PrtScn button, pasting the screen shot into paint and printing it from there.
+
+Assuming your buttons are called btnPrint and btnSave, in their click events add the line
+btnPrint.enabled = False 
+or
+btnSave.enabled = False
+
+'DISABLE BUTTONS
+cmdsave.Enabled = True 
+
+
+-  how to pass a string to a Sub or Function
+To return a value use Function rather than subroutine
+____________________________________________________________________________________--
+
+1
+CUSTOMER RESERVATION BILLLING (cmdSave,  Command2)
+If cmdSave.Caption = "Save" Then
+   Adodc1.Recordset.AddNew
+   txtClassofRoom.SetFocus
+   'Disablebuttons
+   cmdsave.Enabled = True
+   cmdAddNew.Caption = "Cancel"
+   cboClassofRoom.Locked = False
+   txtCustomer_Name.Locked = False
+   txtRoomNo.Locked = False
+   txtCustomer_Address.Locked = False
+   txtPhone_number.Locked = False
+   txtAmountPaid.Locked = False
+   txtCheckin.Locked = False
+   txtDuration.Locked = False
+   txtDate.Locked = False
+   txtReceptionist.Locked = False
+   MsgBox "Data successfully Added"
+Else
+   Adodc1.Recordset.CancelUpdate
+     cmdsave.Enabled = False
+     cmdAdd.Caption = "Add"
+   'enablebuttons
+   cboClassofRoom.Locked = True
+   txtCustomer_Name.Locked = True
+   txtRoomNo.Locked = True
+   txtCustomer_Address.Locked = True
+   txtPhone_number.Locked = True
+   txtAmountPaid.Locked = True
+   txtCheckin.Locked = True
+   txtDuration.Locked = True
+   txtDate.Locked = True
+   txtReceptionist.Locked = True
+End IF
+_______________________________________
+CAPTIN ORDER  (cmdSave,  Command1)
+
+If cmdSave.Caption = "Save" Then
+   Adodc1.Recordset.AddNew
+   txt.SetFocus
+   'Disablebuttons
+   cmdsave.Enabled = True
+   cmdAddNew.Caption = "Cancel"
+   txtOrderedFrom.Locked = False
+   txtSerial_Number.Locked = False
+   txtDescription.Locked = False
+   txtAmount2.Locked = False
+   txtName_of_waiter.Locked = False
+Else
+   Adodc1.Recordset.CancelUpdate
+     cmdsave.Enabled = False
+     cmdAdd.Caption = "Add"
+   'enablebuttons
+   txtOrderedFrom.Locked = True
+   txtSerial_Number.Locked = True
+   txtDescription.Locked = True
+   txtAmount2.Locked = True
+   txtName_of_waiter.Locked = True
+End If
+__________________________________
+
+BAR KITCHEN  (cmdAdd,  Command1)
+Form_Load()
+
+If cmdSave.Caption = "Save" Then
+  Adodc1.Recordset.CancelUpdate
+     cmdSave.Enabled = False
+     cmdAdd.Caption = "Add New"
+   'enablebuttons
+  cboClassofRoom.Locked = True
+  txtRoomNumber.Locked = True
+  txtRefNo.Locked = True
+  txtCustomername.Locked = True
+  txtDescription2.Locked = True
+  txtAmountPaid.Locked = True
+  txtCashier.Locked = True
+  MsgBox "RECORD ADDED"
+Else
+    Adodc1.Recordset.AddNew
+   txtRoomNumber.SetFocus
+   'Disablebuttons
+   cmdSave.Enabled = True
+   cmdAdd.Caption = "Add New"
+   cboClassofRoom.Locked = False
+   txtRoomNumber.Locked = False
+   txtRefNo.Locked = False
+   txtCustomername.Locked = False
+   txtDescription2.Locked = False
+   txtAmountPaid.Locked = False
+   txtCashier.Locked = False
+End If
+-----
+Sub _cmdSave / (Call subfunction/method/procedure/function/sub Rountine/classes)
+Private Sub save_Click()
+' Disenable Save button on each form when record saves successfully,  to prevent modification 
+If frmName is saved
+Then 
+  cmd.Save=disenabled
+else 
+cmd.save = enabled
+endif
+-----
+If cmdSave = 0 (Adodc1.Recordset.Update)  Then
+  cmdSave.Enabled = False
+  Call SaveButton_Click
+End If
+
+-SUb SaveButton_click
+If cmdSave_Click = True Then
+ cmdSave.Enabled =  False 'Disable save button
+
+If cmdSave.Enabled = False
+Call Form_Load()  ' call subrountine to disenable all text box
+Else 
+----
+CALL
+MsgBox "Cannot modify record", vbRetryCancel
+cboClassofRoom.Locked = True
+   txtCustomer_Name.Locked = True
+   txtRoomNo.Locked = True
+   txtCustomer_Address.Locked = True
+   txtPhone_number.Locked = True
+   txtAmountPaid.Locked = True
+   txtCheckin.Locked = True
+   txtDuration.Locked = True
+   txtDate.Locked = True
+   txtReceptionist.Locked = True
+
+
+disabled TextBox
+Text1.Enabled = False 
+
+' Enable the control again 
+  Text1.Enabled = True 
+--------------------
+  Sub Validate input()
+
+  If text1.Text = 
+ Then 
+cmdSave.Enabled = false
+Exit Sub
+End IF
+ cmdSave.Enabled = True
+End Sub
+
+-------
+If cmdSave.Enabled = True Then
+   txtCustomername.Locked = False
+Else
+   txtCustomername.Locked =False  
+-----------
+
+If cmdSave.Enabled = True Then
+   txtCustomername.Locked = False
+Else
+    rs.MoveLast
+ MsgBox "You cannot save this record again"
+
+
+_____________________________________________________
+
+rs.MoveLast
+rs.AddNew
+rs(0) = Combo1.Text
+rs(1) = Text1.Text
+rs(2) = Text2.Text
+rs(3) = Text3.Text
+rs(4) = List1.Text
+rs(5) = List2.Text
+rs(6) = Text4.Text
+rs.UPDATE
+MsgBox "RECORD ADDED"
+
+_____________________________________________________________________
+
+___________________________________________
+3
+
+----------If txtCustomername_click = True Then
+ txtCustomername.Enabled = False ' Disable text box
+__________________________________________
+If txtCustomernam.LisIndex = 0 Then
+Call Save_click
+__________________________________________________
+
+__________________________________________________-
+
+Private Sub cmdSave_Click()
+ With dlgDialog
+     .CancelError = True
+
+
+______
+
+
+------------------
+
+---------------------------------------------------------------------
+4
+' Display name of user that login on the Receptionist/Waitername/Cashier on the form
+  
+lblReceptionist = txtUserName
+
+lblName_of_waiter = txtUserName
+
+txtCashier = txtUserName
+
+NOTHING happens "automatically". You either write the code to do it or it doesn't happen.
+
+Are you prompting the user for a username and password to login to the app? If so, you already have the username is a string somewhere, so pass that to a method that sets the text of a label somewhere, or whatever control you're going to use to show the username.
+
+___________________________________________________________________________
+
+5.Multiple uuser profile (login)
+
+
+
+
+
+__________________________________________________
+
+6. 'Form Validation
+' Text must be entered/Field cannot be empty especially when save button is clicked
+
+
+
+__________________________________________________________
+7. Short cut keys (Menu bar)
+
+
+
+- functions and subroutines /Loop
+
+- (the 'KeyPress' and 'LostFocus' events) VALIDATION
+
+•	KeyPress (generated when the user types an ascii character into the TextBox)
+•	LostFocus (generated when the user transfers the focus outside of the TextBox - e.g., to another TextBox, or to a button)
+
+Private Sub Address_Validate (Action As Integer, Save As Integer)
+     Dim msg As String
+     If Not Address.RecordSet.EOF Then
+     ' RecordSet is not empty, so validate current record
+          If Address.RecordSet.Fields("Surname") = "" Then
+               msg = "Surname is a required field. Please enter a Surname"
+               MsgBox msg
+               Action = vbDataActionCancel ' Cancel whatever action generated the event
+               Save = False ' Do not write the record to the database
+          End If
+     End If
+End Sub
+--------------------------------------
+
+- After printing a form what event can trigger the print button to become inactive
+- After saving a form what event or process make the save btton to become active

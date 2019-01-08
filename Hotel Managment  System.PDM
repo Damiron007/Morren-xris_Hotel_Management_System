@@ -1,0 +1,408 @@
+[Root]
+Most Recent Package=Standard Setup Package
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Morren-xris_Hotel_Management_System\Package 
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=Yes
+Jet 2.x=Yes
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=Yes
+ODBCDirect=Yes
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\Program Files\Common Files\System\ado\msado20.tlb=
+C:\Windows\System32\MSSTDFMT.DLL=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\Windows\System32\Mscomct2.ocx=
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Windows\System32\oleaut32.dll=Yes
+C:\Windows\System32\olepro32.dll=Yes
+C:\Windows\System32\asycfilt.dll=Yes
+C:\Windows\System32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\microsoft shared\DAO\dao350.dll=Yes
+C:\Windows\System32\MSJET35.DLL=Yes
+C:\Windows\System32\MSJTER35.DLL=Yes
+C:\Windows\System32\MSJINT35.DLL=Yes
+C:\Windows\System32\vbajet32.dll=Yes
+C:\Windows\System32\expsrv.dll=Yes
+C:\Windows\System32\MSRD2X35.DLL=Yes
+C:\Windows\System32\MSREPL35.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\Windows\System32\vb5db.DLL=Yes
+C:\Windows\System32\MSADODC.OCX=Yes
+C:\Windows\System32\MSSTDFMT.DLL=Yes
+C:\Windows\System32\MSDATGRD.OCX=Yes
+C:\Program Files\Common Files\System\ado\msado20.tlb=Yes
+C:\Windows\System32\MSBIND.DLL=Yes
+C:\Program Files\Microsoft Office\Office12\MSCAL.OCX=Yes
+C:\Windows\System32\Mscomct2.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Windows\System32\MSRDO20.DLL=Yes
+C:\Windows\System32\RDOCURS.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Morren-xris_Hotel_Management_System\Morrren-Xris Hotel Managment  System V1.exe=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\Morren-xris_Hotel_Management_System\Hotel Managment  System.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Windows\System32\oleaut32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\olepro32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\asycfilt.dll=$(WinSysPathSysFile)
+C:\Windows\System32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\microsoft shared\DAO\dao350.dll=$(MSDAOPath)
+C:\Windows\System32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\vbajet32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\expsrv.dll=$(WinSysPathSysFile)
+C:\Windows\System32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\vb5db.DLL=$(WinSysPath)
+C:\Windows\System32\MSADODC.OCX=$(WinSysPath)
+C:\Windows\System32\MSSTDFMT.DLL=$(WinSysPath)
+C:\Windows\System32\MSDATGRD.OCX=$(WinSysPath)
+C:\Program Files\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+C:\Windows\System32\MSBIND.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Office\Office12\MSCAL.OCX=$(AppPath)
+C:\Windows\System32\Mscomct2.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Windows\System32\MSRDO20.DLL=$(WinSysPath)
+C:\Windows\System32\RDOCURS.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Morren-xris_Hotel_Management_System\Morrren-Xris Hotel Managment  System V1.exe=$(AppPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\Morren-xris_Hotel_Management_System\Hotel Managment  System.exe=Yes
+C:\Program Files\Microsoft Office\Office12\MSCAL.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+C:\Morren-xris_Hotel_Management_System\Morrren-Xris Hotel Managment  System V1.exe=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=Morren-xris Hotel Management Software
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=C:\Morren-xris_Hotel_Management_System\Package (2)
+ProjectFolder=C:\Morren-xris_Hotel_Management_System
+ServerSideCab=
+File1=C:\Morren-xris_Hotel_Management_System\Package (2)\setup.exe
+File2=C:\Morren-xris_Hotel_Management_System\Package (2)\Setup.Lst
+File3=C:\Morren-xris_Hotel_Management_System\Package (2)\Hotel Managment  System.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=Morren-xris Hotel Management Software
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|Morren-xris Hotel Management Software]
+Icon1="Hotel Managment  System.EXE"
+Title1=Morren-xris Hotel Management Software
+StartIn1=$(AppPath)
+Key1=Icon1
+
+
+[Package|Program Setup|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Morren-xris_Hotel_Management_System\Package
+
+[Package|Program Setup|Configure DAO ISAMs]
+Applicable=Yes
+Jet 2.x=Yes
+
+[Package|Program Setup|Configure DAO ODBC]
+JetWorkspace=Yes
+ODBCDirect=Yes
+
+[Package|Program Setup|Files Found]
+
+[Package|Program Setup|Files Released]
+
+[Package|Program Setup|Missing Dependency Information]
+C:\Program Files\Common Files\System\ado\msado20.tlb=
+C:\Windows\System32\MSSTDFMT.DLL=
+
+[Package|Program Setup|Out-of-Date Dependency Information]
+C:\Windows\System32\Mscomct2.ocx=
+
+[Package|Program Setup|Files Added]
+
+[Package|Program Setup|Files Removed]
+c:\morren-xris_hotel_management_system\morrren-xris hotel managment  system v1.exe=
+c:\program files\common files\microsoft shared\dao\dao350.dll=
+c:\windows\system32\expsrv.dll=
+c:\windows\system32\vbajet32.dll=
+
+[Package|Program Setup|Files In Project]
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Windows\System32\oleaut32.dll=Yes
+C:\Windows\System32\olepro32.dll=Yes
+C:\Windows\System32\asycfilt.dll=Yes
+C:\Windows\System32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\microsoft shared\DAO\dao350.dll=No
+C:\Windows\System32\MSJET35.DLL=Yes
+C:\Windows\System32\MSJTER35.DLL=Yes
+C:\Windows\System32\MSJINT35.DLL=Yes
+C:\Windows\System32\vbajet32.dll=No
+C:\Windows\System32\expsrv.dll=No
+C:\Windows\System32\MSRD2X35.DLL=Yes
+C:\Windows\System32\MSREPL35.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\Windows\System32\vb5db.DLL=Yes
+C:\Windows\System32\MSADODC.OCX=Yes
+C:\Windows\System32\MSSTDFMT.DLL=Yes
+C:\Windows\System32\MSDATGRD.OCX=Yes
+C:\Program Files\Common Files\System\ado\msado20.tlb=Yes
+C:\Windows\System32\MSBIND.DLL=Yes
+C:\Program Files\Microsoft Office\Office12\MSCAL.OCX=Yes
+C:\Windows\System32\Mscomct2.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Windows\System32\MSRDO20.DLL=Yes
+C:\Windows\System32\RDOCURS.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Morren-xris_Hotel_Management_System\Morrren-Xris Hotel Managment  System V1.exe=No
+
+[Package|Program Setup|Configure Registry Files]
+Applicable=No
+
+[Package|Program Setup|Configure Remote Servers]
+Applicable=No
+
+[Package|Program Setup|Install Locations]
+C:\Morren-xris_Hotel_Management_System\Hotel Managment  System.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Windows\System32\oleaut32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\olepro32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\asycfilt.dll=$(WinSysPathSysFile)
+C:\Windows\System32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\microsoft shared\DAO\dao350.dll=$(MSDAOPath)
+C:\Windows\System32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\vbajet32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\expsrv.dll=$(WinSysPathSysFile)
+C:\Windows\System32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\vb5db.DLL=$(WinSysPath)
+C:\Windows\System32\MSADODC.OCX=$(WinSysPath)
+C:\Windows\System32\MSSTDFMT.DLL=$(WinSysPath)
+C:\Windows\System32\MSDATGRD.OCX=$(WinSysPath)
+C:\Program Files\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+C:\Windows\System32\MSBIND.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Office\Office12\MSCAL.OCX=$(AppPath)
+C:\Windows\System32\Mscomct2.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Windows\System32\MSRDO20.DLL=$(WinSysPath)
+C:\Windows\System32\RDOCURS.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Morren-xris_Hotel_Management_System\Morrren-Xris Hotel Managment  System V1.exe=$(AppPath)
+
+[Package|Program Setup|Configure Shared Files]
+Applicable=Yes
+C:\Morren-xris_Hotel_Management_System\Hotel Managment  System.exe=Yes
+C:\Program Files\Microsoft Office\Office12\MSCAL.OCX=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Morren-xris_Hotel_Management_System\Morrren-Xris Hotel Managment  System V1.exe=No
+
+[Package|Program Setup|Distribution]
+Type=single
+Size=
+Title=Morren-xris Hotel Management Software
+
+[Package|Program Setup|Package]
+PackageFolder=C:\Morren-xris_Hotel_Management_System\Package
+ProjectFolder=C:\Morren-xris_Hotel_Management_System
+ServerSideCab=
+File1=C:\Morren-xris_Hotel_Management_System\Package\setup.exe
+File2=C:\Morren-xris_Hotel_Management_System\Package\Setup.Lst
+File3=C:\Morren-xris_Hotel_Management_System\Package\Morrren-Xris Hotel Managment  System V1.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Program Setup|IconGroups]
+Group0=Morren-xris Hotel Management Software
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Program Setup|Morren-xris Hotel Management Software]
+Icon1="Hotel Managment  System.EXE"
+Title1=Morren-xris Hotel Management Software
+StartIn1=$(AppPath)
+Key1=Icon1
+
+
+[Package|Standard Setup Package|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Morren-xris_Hotel_Management_System\Package
+
+[Package|Standard Setup Package|Configure DAO ISAMs]
+Applicable=Yes
+Jet 2.x=Yes
+
+[Package|Standard Setup Package|Configure DAO ODBC]
+JetWorkspace=Yes
+ODBCDirect=Yes
+
+[Package|Standard Setup Package|Files Found]
+
+[Package|Standard Setup Package|Files Released]
+
+[Package|Standard Setup Package|Missing Dependency Information]
+C:\Program Files\Common Files\System\ado\msado20.tlb=
+C:\Windows\System32\MSSTDFMT.DLL=
+
+[Package|Standard Setup Package|Out-of-Date Dependency Information]
+C:\Windows\System32\Mscomct2.ocx=
+
+[Package|Standard Setup Package|Files Added]
+
+[Package|Standard Setup Package|Files Removed]
+
+[Package|Standard Setup Package|Files In Project]
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Windows\System32\oleaut32.dll=Yes
+C:\Windows\System32\olepro32.dll=Yes
+C:\Windows\System32\asycfilt.dll=Yes
+C:\Windows\System32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\microsoft shared\DAO\dao350.dll=Yes
+C:\Windows\System32\MSJET35.DLL=Yes
+C:\Windows\System32\MSJTER35.DLL=Yes
+C:\Windows\System32\MSJINT35.DLL=Yes
+C:\Windows\System32\vbajet32.dll=Yes
+C:\Windows\System32\expsrv.dll=Yes
+C:\Windows\System32\MSRD2X35.DLL=Yes
+C:\Windows\System32\MSREPL35.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\Windows\System32\vb5db.DLL=Yes
+C:\Windows\System32\MSADODC.OCX=Yes
+C:\Windows\System32\MSSTDFMT.DLL=Yes
+C:\Windows\System32\MSDATGRD.OCX=Yes
+C:\Program Files\Common Files\System\ado\msado20.tlb=Yes
+C:\Windows\System32\MSBIND.DLL=Yes
+C:\Program Files\Microsoft Office\Office12\MSCAL.OCX=Yes
+C:\Windows\System32\Mscomct2.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Windows\System32\MSRDO20.DLL=Yes
+C:\Windows\System32\RDOCURS.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Morren-xris_Hotel_Management_System\Morrren-Xris Hotel Managment  System V1.exe=Yes
+
+[Package|Standard Setup Package|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package|Install Locations]
+C:\Morren-xris_Hotel_Management_System\Hotel Managment  System.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Windows\System32\oleaut32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\olepro32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\asycfilt.dll=$(WinSysPathSysFile)
+C:\Windows\System32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\microsoft shared\DAO\dao350.dll=$(MSDAOPath)
+C:\Windows\System32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\vbajet32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\expsrv.dll=$(WinSysPathSysFile)
+C:\Windows\System32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\vb5db.DLL=$(WinSysPath)
+C:\Windows\System32\MSADODC.OCX=$(WinSysPath)
+C:\Windows\System32\MSSTDFMT.DLL=$(WinSysPath)
+C:\Windows\System32\MSDATGRD.OCX=$(WinSysPath)
+C:\Program Files\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+C:\Windows\System32\MSBIND.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Office\Office12\MSCAL.OCX=$(AppPath)
+C:\Windows\System32\Mscomct2.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Windows\System32\MSRDO20.DLL=$(WinSysPath)
+C:\Windows\System32\RDOCURS.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Morren-xris_Hotel_Management_System\Morrren-Xris Hotel Managment  System V1.exe=$(AppPath)
+
+[Package|Standard Setup Package|Configure Shared Files]
+Applicable=Yes
+C:\Morren-xris_Hotel_Management_System\Hotel Managment  System.exe=Yes
+C:\Program Files\Microsoft Office\Office12\MSCAL.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Morren-xris_Hotel_Management_System\Morrren-Xris Hotel Managment  System V1.exe=Yes
+
+[Package|Standard Setup Package|Distribution]
+Type=single
+Size=
+Title=Morren-xris Hotel Management Software
+
+[Package|Standard Setup Package|Package]
+PackageFolder=C:\Morren-xris_Hotel_Management_System\Package
+ProjectFolder=C:\Morren-xris_Hotel_Management_System
+ServerSideCab=
+File1=C:\Morren-xris_Hotel_Management_System\Package\setup.exe
+File2=C:\Morren-xris_Hotel_Management_System\Package\Setup.Lst
+File3=C:\Morren-xris_Hotel_Management_System\Package\Morrren-Xris Hotel Managment  System V1.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Standard Setup Package|IconGroups]
+Group0=Morren-xris Hotel Management Software
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package|Morren-xris Hotel Management Software]
+Icon1="Hotel Managment  System.EXE"
+Title1=Morren-xris Hotel Management Software
+StartIn1=$(AppPath)
+Key1=Icon1
